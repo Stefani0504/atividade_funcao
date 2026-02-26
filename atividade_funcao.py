@@ -53,24 +53,28 @@ def soma(n1, n2):
 
     return n1 + n2
 
-resultado_soma = soma(18, 8)
-print (resultado_soma)
 
 def subtracao(n1, n2):
     return n1 - n2
 
-resultado_subtracao = subtracao(25, 5)
-print (resultado_subtracao)
 
 def divisao(n1, n2):
     return n1 / n2
 
-resultado_divisao = divisao(13, 6)
-print (resultado_divisao)
+
 
 def multiplicacao(n1, n2):
 
     return n1 * n2
 
-resultado_multiplicacao = multiplicacao(12, 2)
-print (resultado_multiplicacao)
+print(f"soma: {soma(8, 16)}")
+print(f"subtracao: {subtracao(16, 8)}")
+print(f"divisao: {divisao(8, 8)}")
+print(f"multiplicacao: {multiplicacao(15, 5)}")
+
+
+
+def porcentagem(valor, percentual):
+    return (valor * percentual) / 100
+print (f"Porcentagem: {porcentagem(1000, 10)}")
+print(f"10% de 1000 é {porcentagem(1000, 10)}")
